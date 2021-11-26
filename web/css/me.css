@@ -9,3 +9,172 @@
     margin: 20px auto 5px;
     text-shadow: 0 0 black;
 }
+.advertisement {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 110px;
+    box-shadow: -1px 0 2px 0px #c5ebda;
+    padding: 10px;
+    z-index: 99;
+    background-color: #fff;
+    text-align: center;
+}
+    
+.advertisement p,
+    h4 {
+    margin: 0;
+    padding: 0;
+    }
+
+.advertisement .Tencent_code h4 {
+    font-size: 15px;
+    color: #25a46a;
+    margin-bottom: 10px;
+}
+    
+.markdown-section pre>code {
+    color: #c0c3c1 !important;
+    font-family: 'Inconsolata', consolas,"PingFang SC", "Microsoft YaHei", monospace !important;
+    background-color: #212121 !important;    //#accfff  #282c34
+    font-size: 15px !important;
+    white-space: pre !important;
+    line-height: 1.5 !important;
+    -moz-tab-size: 4 !important;
+    -o-tab-size: 4 !important;
+    tab-size: 4 !important;
+/*border-radius: .3em;*/
+}
+
+ol, ul, li{
+    line-height: 27px !important;
+    font-size: 16px !important;
+}
+@media (min-width:600px) {
+    .markdown-section pre>code {
+    font-size: 15px !important;
+    letter-spacing: 1.1px !important;
+    }
+
+}
+@media (max-width:600px) {
+    .markdown-section pre>code {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 16px !important;
+    }
+    pre:after {
+    content: "" !important;
+    }
+}
+section.cover h1 {
+    margin: 0;
+}
+
+    pre {
+      background-color: #212121 !important;
+    }
+
+@media (min-width:600px) {
+    pre code {
+      /*box-shadow: 2px 1px 20px 2px #aaa;*/
+      /*border-radius: 10px !important;*/
+      padding-left: 20px !important;
+    }
+}
+
+@media (max-width:600px) {
+    pre {
+      padding-left: 3px !important;
+      padding-right: 3px !important;
+      margin-left: -20px !important;
+      margin-right: -20px !important;
+      box-shadow: 0px 0px 20px 0px #f7f7f7 !important;
+    }
+    /*代码块复制按钮默认隐藏*/
+      .docsify-copy-code-button {
+        display: none;
+      }
+      .advertisement{
+        display: none;
+      }
+}
+
+.markdown-section pre {
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+}
+
+.markdown-section {
+    margin: 0 3.2% !important;
+    }
+    /*修改代码块代码颜色显示*/
+    .token.directive.keyword{
+      color: #4faee2 !important;
+    }
+
+    .token.keyword{
+      color: #c678dd !important;
+    }
+
+    .token.comment{
+      color: #737c8b !important;
+    }
+
+    .token.tag{
+      color: #a589ad !important;
+    }
+
+    .token.attr-name{
+      color: #de916c !important;
+    }
+
+    .token.attr-value{
+      color: #4faee2 !important;
+    }
+
+    .token.macro.property{
+      color: #4faee2 !important;
+    }
+
+    .token.function{
+      color: #e6b456 !important;
+    }
+    .token.string{
+      color: #98b755 !important;
+    }
+    .token.punctuation{
+      color: #c0c3c1 !important;
+    }
+
+    .token.number{
+      color:#c0c3c1  !important;
+    }
+
+    a.section-link{
+      font-size: .9rem !important;
+    }
+
+.advertisement {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 110px;
+    box-shadow: -1px 0 2px 0px #c5ebda;
+    padding: 10px;
+    z-index: 99;
+    background-color: #fff;
+    text-align: center;
+}
+
+.advertisement p,
+    h4 {
+      margin: 0;
+      padding: 0;
+}
+
+.advertisement .Tencent_code h4 {
+      font-size: 15px;
+      color: #25a46a;
+      margin-bottom: 10px;
+}
