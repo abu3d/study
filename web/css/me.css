@@ -101,52 +101,7 @@
 .markdown-section {
     margin: 0 3.2% !important;
     }
-    /*修改代码块代码颜色显示*/
-    .token.directive.keyword{
-      color: #4faee2 !important;
-    }
 
-    .token.keyword{
-      color: #c678dd !important;
-    }
-
-    .token.comment{
-      color: #737c8b !important;
-    }
-
-    .token.tag{
-      color: #a589ad !important;
-    }
-
-    .token.attr-name{
-      color: #de916c !important;
-    }
-
-    .token.attr-value{
-      color: #4faee2 !important;
-    }
-
-    .token.macro.property{
-      color: #4faee2 !important;
-    }
-
-    .token.function{
-      color: #e6b456 !important;
-    }
-    .token.string{
-      color: #98b755 !important;
-    }
-    .token.punctuation{
-      color: #c0c3c1 !important;
-    }
-
-    .token.number{
-      color:#c0c3c1  !important;
-    }
-
-    a.section-link{
-      font-size: .9rem !important;
-    }
 
 .advertisement {
     position: fixed;
