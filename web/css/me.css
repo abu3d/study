@@ -39,6 +39,7 @@
     background: #00a1d6 !important;
     color: #FFFFFF !important;
     font-size: 13px !important;
+    display: none;
 }
 
 ::after{
@@ -48,21 +49,4 @@
 .markdown-section>p {
     font-size: 16px !important;
 }
-   
-/*代码块复制按钮默认隐藏*/
-    .docsify-copy-code-button {
-      display: none;
-    }
-    .advertisement{
-      display: none;
-    }
-}
 
-.markdown-section pre {
-    padding-left: 0 !important;
-    padding-right: 0px !important;
-}
-
-.markdown-section {
-    margin: 0 3.2% !important;
-    }
