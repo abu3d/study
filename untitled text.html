@@ -1,0 +1,135 @@
+<div class="rightList bar-v2">
+  <ul class="sidebar">
+    <li class="vip-mbxzb">
+      <a href="http://www.abu3d.com" target="_blank" rel="nofollow">
+        <i class="icon icon-crown"></i>
+        <span>特惠直降</span>
+        <div class="left-box"><img src="<?php echo _MBT('thzj');?>" alt=""></div>
+      </a>
+    </li>
+    <li class="customer-service">
+      <a class="custom-w" data-block="666" data-position="4">
+        <i class="icon icon-qq"></i>
+        <span>客服</span>
+      </a>
+      <div class="service-box">
+        <div class="service-con">
+          <div class="custom-box">
+            <p>在线客服</p>
+            <a href="<?php echo _MBT('kefu_qq');?>"  class="btn-contact custom-w">点我联系</a>
+          </div>
+          <div class="custom-tel">
+            <p>直接说出您的需求！</p>
+            <p>切记！带上资源连接与问题！</p>
+          </div>
+          <div class="custom-tel">
+            <p>在线时间：</p>
+            <p>10：00~01：00</p>
+          </div>
+          <div class="warning-box">
+            <p>理解万岁~谢谢！</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="customer-service">
+      <a class="custom-w" data-block="666" data-position="4">
+        <i class="icon icon-qq"></i>
+        <span>Q群</span>
+      </a>
+      <div class="service-box">
+        <div class="service-con">
+          <div class="custom-box">
+            <p>欢迎加入QQ群</p>
+            <a href="https://qm.qq.com/cgi-bin/qm/qr?k=ue1WN90cjuVw144gKOLVhC8ibhkfWOIf&jump_from=webapi"  class="btn-contact custom-w">点我加入交流群</a>
+            <a href="https://qm.qq.com/cgi-bin/qm/qr?k=x9Uc71YW5KyFVTyGazjUxpmi2BH8Nx1A&jump_from=webapi"  class="btn-contact custom-w">点我加入VIP群</a>
+          </div>
+          <div class="warning-box">
+            <p>理解万岁~谢谢！</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="customer-service">
+      <a class="custom-w" data-block="666" data-position="4">
+        <i class="icon icon-weixin"></i>
+        <span>微信</span>
+      </a>
+      <div class="service-box">
+        <div class="service-con">
+<img src="<?php echo _MBT('kefu_weixin');?>">
+        </div>
+      </div>
+    </li>
+    <?php }?>
+    <?php if(_MBT('theme_fan')){?>
+    <li class="customer-service zh_click">
+      <a class="custom-w" href="javascript:zh_tran2();" >
+        <i class="icon icon-fan"></i>
+        <span>繁体</span>
+      </a>
+    </li>
+    <?php }?>
+	<?php if(_MBT('theme_night')){
+		$night_class = '';
+		if(isset($_COOKIE['mbt_theme_night'])){
+		    if($_COOKIE['mbt_theme_night'] == '1'){
+		      	$night_class = ' active';
+		    }
+		}elseif(_MBT('theme_night_default')){
+		    $night_class = ' active';
+		}elseif(_MBT('theme_night_auto')){
+		    $time = intval(date("Hi"));
+		    if ($time < 730 || $time > 1930) {
+		      	$night_class = ' active';
+		    }
+		}
+	?>
+    <li class="recruit">
+      <a href="javascript:;" class="tap-dark theme_night<?php echo $night_class;?>" title="夜间模式">
+        <i class="icon icon-moon" style="top:0"></i>
+        <span>夜间</span>
+      </a>
+    </li>
+    <?php }?>
+    <li class="customer-service">
+      <a class="update-log" id="update-log-click" data-block="666" data-position="6"
+      rel="nofollow">
+        <i class="icon icon-order-menu"></i>
+        <span>统计</span>
+      </a>
+      <div class="service-box">
+        <div class="service-con">
+          <div class="custom-tel">
+            <p>资源总数：<?php if(_MBT('home_total_no')) echo _MBT('total_posts');else echo ((int)_MBT('total_posts')+$count_posts->publish);?>个</p>
+          </div>
+          <div class="custom-tel">
+            <p>赞助会员：<?php if(_MBT('home_total_no')) echo _MBT('total_vip_users');else echo ((int)_MBT('total_vip_users')+MBThemes_count_vip_users());?>位</div>
+          <div class="custom-tel">
+            <p>注册用户：<?php if(_MBT('home_total_no')) echo _MBT('total_users');else echo ((int)_MBT('total_users')+$count_users['total_users']);?>位</p>
+          </div>
+          <div class="custom-tel">
+            <p>浏览总数：<?php echo nd_get_all_view(); ?></p>
+          </div>
+          <div class="custom-tel">
+            <p>运营天数：<?php echo floor((time()-strtotime("2020-12-01"))/86400); ?>天</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <?php if(_MBT('fullscreen')){?>
+    <li class="customer-service fullscreen">
+      <a class="custom-w" href="javascript:;" >
+        <i class="icon icon-fullscreen"></i>
+        <span>全屏</span>
+      </a>
+    </li>
+    <?php }?>
+  </ul>
+  <a class="Top totop" href="javascript:;" title="返回顶部" style="display: block;">
+    <i class="icon icon-arrow-up">
+    </i>
+    <span class="common-gradient">
+    </span>
+  </a>
+</div>

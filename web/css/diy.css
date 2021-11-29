@@ -1,0 +1,57 @@
+.sidebar .vip-mbxzb:hover .iconfont{-webkit-text-fill-color:#fff}
+.sidebar .vip-mbxzb span{font-size:14px;padding:0 14px;letter-spacing:2px}
+.sidebar .vip-mbxzb .left-box{position:absolute;top:0;right:100%;cursor:pointer;width:0;opacity:0;transition:.3s}
+.sidebar .vip-mbxzb:hover .left-box{width:220px;opacity:1}
+.sidebar .vip-mbxzb .left-box>img{width:100%}
+.sidebar .sign-in a:before{display:none;position:absolute;content:'';top:11px;left:12px;width:6px;height:6px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;background:#f52f3e;animation:twinkle .6s ease-in-out infinite alternate;-webkit-animation:twinkle .6s ease-in-out infinite alternate;-moz-animation:twinkle .6s ease-in-out infinite alternate;-o-animation:twinkle .6s ease-in-out infinite alternate}
+.sidebar .twinkle-point a:before{position:absolute;content:'';top:11px;left:12px;width:6px;height:6px;border-radius:50%;background:linear-gradient(45deg,rgba(243,127,98,1) 29%,rgba(247,162,107,1) 100%);background:-moz-linear-gradient(45deg,rgba(243,127,98,1) 29%,rgba(247,162,107,1) 100%);background:-ms-linear-gradient(45deg,rgba(243,127,98,1) 29%,rgba(247,162,107,1) 100%);-moz-animation:twinkle .6s ease-in-out infinite alternate;-o-animation:twinkle .6s ease-in-out infinite alternate}
+.sidebar .sign-in.signed a:before{display:none}
+.vip-entrance{position:absolute;top:-105px;right:0;width:87px;height:80px}
+.sidebar .red-packet{position:relative}
+.sidebar .red-packet .service-tan{width:222px;height:270px;top:-1px}
+.sidebar .red-packet:hover .service-tan{display:block}
+.sidebar .red-packet .service-tan .bg{box-shadow:none;border:1px solid #d8d8d8;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;padding-top:16px}
+.sidebar .red-packet .st-info{font-size:14px;color:#000;padding-bottom:10px}
+.sidebar .red-packet .st-info>span{color:#ff5d1e;font-size:14px;display:inline}
+.customer-service{position:relative}
+li.customer-service:hover .service-box{opacity:1;width:225px}
+.sidebar li .service-box{opacity:0;position:absolute;width:0;right:93.3%;top:50%;transform:translateY(-50%);padding-right:5px;transition:opacity .3s}
+.sidebar li .service-box .service-con{background:#fb8f02;background-image:-webkit-linear-gradient(30deg,#ffa400 0,#ffc500 100%);width:100%;height:100%;overflow:hidden;border-radius:4px;font-size:14px;color:#fff}
+.sidebar li .service-box .service-con>a{display:block;line-height:35px;height:36px;border-bottom:1px solid #fff;color:inherit;padding-left:20px;text-align:left}
+.sidebar li .service-box .service-con .iconfont{font-size:12px;color:inherit;margin-left:5px}
+.sidebar li .service-box .service-con p{color:inherit;padding-left:0px;text-align:center;margin:0 0 5px;line-height:18px
+	margin:9px 0 9px}
+.sidebar li .service-box .custom-box,.sidebar li .service-box .custom-tel{padding:6px 0;order-bottom:1px solid #ffffffa6}
+.sidebar li .service-box .btn-contact{display:block;margin:6px auto 6px 36px;width:150px;height:36px;background-color:#ffffff;box-shadow:2px 7px 4px 0 #0f548b29;border-radius:4px;line-height:36px;text-align:center;font-size:14px;color:#245bfc;transition:all .2s}
+.sidebar li .service-box .btn-contact:hover{transform:translateY(-3px)}
+.sidebar li .service-box .warning-box{padding:10px 0}
+.sidebar li .service-box .warning-box>p{text-align:center;padding-left:0;color:#ffffff;line-height:18px}
+.rightList.bar-v2{position:fixed;right:12px;bottom:90px;z-index:999;text-align:center;width:50px;height:auto;box-sizing:border-box;padding-bottom:35px;background:transparent;box-shadow:none}
+.rightList.bar-v2 .sidebar{position:relative;transform:translateY(0);-ms-transform:translateY(0);-webkit-transform:translateY(0);-o-transform:translateY(0);width:100%;padding:0;background:#fff;box-shadow:0 2px 19px 0 rgba(0,0,0,0.05);border-radius:6px;margin-left:auto;bottom:50px}
+.rightList.bar-v2 .Top{display:none;position:absolute;left:0;bottom:0;cursor:pointer;z-index:10;padding:0;width:100%;height:45px;background:#fff;box-shadow:0 2px 19px 0 rgba(0,0,0,0.05);border-radius:6px;text-align:center;box-sizing:border-box;padding-top:5px}
+.bar-v2 .Top i{font-size:20px;color:#000;transition:.3s}
+.bar-v2 .Top span{display:block;margin:-4px auto 0;width:16px;height:2px;border:0;border-radius:1px}
+.bar-v2 .Top:hover i{color:#ed1c24}
+.bar-v2 .sidebar li{position:relative;list-style:none}
+.bar-v2 .sidebar li>a{display:block;padding:6px 0;cursor:pointer;position:relative;border:0}
+.bar-v2 .sidebar li>a:after{content:"";position:absolute;top:0;left:3px;width:44px;height:1px;background:#707070;opacity:.1}
+.bar-v2 .sidebar li>a i{font-size:20px;color:#000}
+.bar-v2 .sidebar .vip-mbxzb .iconfont{font-size:26px;color:#ffab00;background-image:linear-gradient(to bottom,#ffe300 0,#ffe300 100%);background-image:-webkit-gradient(to bottom,#ffe300 0,#fd7d5b 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.bar-v2 .sidebar li .right-icon{display:block;margin:0 auto;background-repeat:no-repeat;background-size:auto 20px}
+.bar-v2 .sidebar li .sign-icon{width:18px;height:17px;background-position-x:0}
+.bar-v2 .sidebar li .custom-icon{width:18px;height:18px;background-position-x:-18px}
+.bar-v2 .sidebar li .client-icon{width:18px;height:18px;background-position-x:-37px}
+.bar-v2 .sidebar li .log-icon{width:17px;height:20px;background-position-x:-56px}
+.bar-v2 .sidebar li .recruit-icon{width:17px;height:19px;background-position-x:-73px}
+.bar-v2 .sidebar li span{display:block;margin-top:0px;font-size:12px;padding:0 10px;line-height:18px;color:#232323;text-align:center;transition:.3s}
+.sidebar .iconfont{font-size:19px;color:#1a1a1a}
+.bar-v2 .sidebar li:hover span{color:#ffab00}
+.sidebar .iconfont:hover{color:#ffab00}
+.bar-v2 .sidebar .vip-mbxzb span{font-size:12px;color:#ffab00;padding:0 10px;letter-spacing:0}
+.bar-v2 .sidebar li.vip-mbxzb:hover span{color:#ffab00}
+.bar-v2 .sidebar .vip-mbxzb .left-box{position:absolute;top:0;right:100%;cursor:pointer;width:0;opacity:0;transition:.3s;border-radius:4px;overflow:hidden}
+.bar-v2 .sidebar .vip-mbxzb:hover .left-box{width:220px;opacity:1}
+.bar-v2 .sidebar .vip-mbxzb .left-box>img{width:100%}
+.bar-v2 .sidebar li:hover{background:transparent}
+.bar-v2 .sidebar li .service-box{top:50%;transform:translateY(-50%)}
+.bar-v2{padding:0}
